@@ -6,7 +6,7 @@ timestamp() {
 cd /home/steam/.local/share 
 
 
-if git diff-index --cached --quiet HEAD --ignore-submodules --
+if ! git diff-index --cached --quiet HEAD --ignore-submodules -- || ! git diff-files --quiet --ignore-submodules --
 then
 echo "Auto Commit $(timestamp)"
 git add -A
