@@ -29,6 +29,7 @@
 <adminTools>
     <admins>
         <!-- <admin steamID="76561198021925107" permission_level="0" /> -->
+        <admin steamID="76561197999562286" permission_level="1" />
     </admins>
 
     <permissions>
@@ -45,6 +46,7 @@
         <permission cmd="listthreads" permission_level="1000" />
         <permission cmd="memcl" permission_level="1000" />
         <permission cmd="settempunit" permission_level="1000" />
+        <permission cmd="cm" permission_level="171" />
     </permissions>
 
     <!-- ONLY PUT ITEMS IN WHITELIST IF YOU WANT WHITELIST ONLY ENABLED!!! -->
